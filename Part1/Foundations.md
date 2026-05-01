@@ -1,7 +1,7 @@
 
 # Part 01 — Foundation: From Zero to Selenium Ready
 
-> **For Telugu-Speaking Learners** | Java Primary | Beginner to Expert Path
+> **For My Telugu-Speaking Learners** | Java Primary | Beginner to Expert Path
 >
 > This is your starting point. Take your time. Understand every concept deeply before moving forward.
 > Every section has a Telugu explanation dropdown. Use it whenever you feel confused.
