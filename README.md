@@ -1,4 +1,4 @@
-# selenium-testing-Mastaru
+# Selenium-testing-Mastaru
 
 A Selenium-based automated testing project for web application UI testing and end-to-end test coverage.
 
