@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Practice Part 1 Suite">
+    <test name="Part 1 Scenarios">
+        <classes>
+            <class name="com.seleniumlearning.part1.Scenario1LoginTest"/>
+            <class name="com.seleniumlearning.part1.Scenario2FormFillingTest"/>
+            <class name="com.seleniumlearning.part1.Scenario3NavigationTest"/>
+            <class name="com.seleniumlearning.part1.Scenario4AlertHandlingTest"/>
+            <class name="com.seleniumlearning.part1.Scenario5AdvancedTest"/>
+        </classes>
+    </test>
+</suite>
