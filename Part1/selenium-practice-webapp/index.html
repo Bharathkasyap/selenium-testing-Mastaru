@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selenium Practice - Part 1</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0d1117; color: #c9d1d9; line-height: 1.6; }
+        .header { background: linear-gradient(135deg, #238636, #2ea043); padding: 40px 20px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .btn { display: inline-block; background: #1f6feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; margin: 5px; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: #388bfd; }
+        .btn-green { background: #238636; }
+        .btn-green:hover { background: #2ea043; }
+        .scenario { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px; margin: 15px 0; }
+        .scenario h2 { color: #58a6ff; margin-bottom: 10px; }
+        .scenario p { margin-bottom: 15px; }
+        .scenario .tags { margin-bottom: 15px; }
+        .scenario .tag { background: #238636; color: white; padding: 3px 10px; border-radius: 12px; font-size: 0.85em; margin-right: 5px; }
+        .scenario .links { display: flex; flex-wrap: wrap; gap: 10px; }
+        .nav-links { text-align: center; margin: 30px 0; }
+        .summary { background: #21262d; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .summary h3 { color: #f0883e; margin-bottom: 15px; }
+        .summary ul { list-style: none; }
+        .summary li { padding: 8px 0; border-bottom: 1px solid #30363d; }
+        .summary li:before { content: "✅ "; }
+        footer { text-align: center; padding: 30px; color: #8b949e; border-top: 1px solid #30363d; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>? Selenium Practice - Part 1</h1>
+        <p>Master Selenium WebDriver through 5 hands-on scenarios</p>
+    </div>
+    <div class="container">
+        <div class="nav-links">
+            <a href="https://github.com/Bharathkasyap/selenium-testing-Mastaru" class="btn btn-green">GitHub Repo</a>
+            <a href="./SCENARIOS.md" class="btn">View Scenarios</a>
+            <a href="./README.md" class="btn">README</a>
+        </div>
+
+        <div class="summary">
+            <h3>? What You'll Learn</h3>
+            <ul>
+                <li><strong>Scenario 1:</strong> Login Test - Basic WebDriver skills (15 min)</li>
+                <li><strong>Scenario 2:</strong> Form Filling - Multi-field forms (20 min)</li>
+                <li><strong>Scenario 3:</strong> Navigation - Page navigation (15 min)</li>
+                <li><strong>Scenario 4:</strong> Alert Handling - JavaScript alerts (15 min)</li>
+                <li><strong>Scenario 5:</strong> Advanced Workflow - E2E testing (30 min)</li>
+            </ul>
+        </div>
+
+        <div class="scenario">
+            <h2>1? Scenario 1: Login Test</h2>
+            <p>Learn to automate a login workflow - navigate to page, find elements, enter text, click buttons, and verify results.</p>
+            <div class="tags">
+                <span class="tag">Beginner</span>
+                <span class="tag">15 min</span>
+                <span class="tag">WebDriver Basics</span>
+            </div>
+            <div class="links">
+                <a href="./src/main/java/com/seleniumlearning/part1/Scenario1LoginTest.java" class="btn btn-green">View Code</a>
+                <a href="./SCENARIOS.md" class="btn">Read Scenario</a>
+            </div>
+        </div>
+
+        <div class="scenario">
+            <h2>2? Scenario 2: Form Filling</h2>
+            <p>Fill a multi-field form - handle text fields, dropdowns, textareas, and verify form submission success.</p>
+            <div class="tags">
+                <span class="tag">Beginner</span>
+                <span class="tag">20 min</span>
+                <span class="tag">Forms</span>
+            </div>
+            <div class="links">
+                <a href="./src/main/java/com/seleniumlearning/part1/Scenario2FormFillingTest.java" class="btn btn-green">View Code</a>
+                <a href="./SCENARIOS.md" class="btn">Read Scenario</a>
+            </div>
+        </div>
+
+        <div class="scenario">
+            <h2>3? Scenario 3: Navigation</h2>
+            <p>Navigate through multiple pages - click links, verify page titles, and check navigation flow.</p>
+            <div class="tags">
+                <span class="tag">Intermediate</span>
+                <span class="tag">15 min</span>
+                <span class="tag">Navigation</span>
+            </div>
+            <div class="links">
+                <a href="./src/main/java/com/seleniumlearning/part1/Scenario3NavigationTest.java" class="btn btn-green">View Code</a>
+                <a href="./SCENARIOS.md" class="btn">Read Scenario</a>
+            </div>
+        </div>
+
+        <div class="scenario">
+            <h2>4? Scenario 4: Alert Handling</h2>
+            <p>Handle JavaScript alerts and confirmations - accept alerts, dismiss dialogs, and verify results.</p>
+            <div class="tags">
+                <span class="tag">Intermediate</span>
+                <span class="tag">15 min</span>
+                <span class="tag">Alerts</span>
+            </div>
+            <div class="links">
+                <a href="./src/main/java/com/seleniumlearning/part1/Scenario4AlertHandlingTest.java" class="btn btn-green">View Code</a>
+                <a href="./SCENARIOS.md" class="btn">Read Scenario</a>
+            </div>
+        </div>
+
+        <div class="scenario">
+            <h2>5? Scenario 5: Advanced Workflow</h2>
+            <p>Complete a multi-step end-to-end workflow - login, create item, edit details, save changes, and logout.</p>
+            <div class="tags">
+                <span class="tag">Advanced</span>
+                <span class="tag">30 min</span>
+                <span class="tag">E2E</span>
+            </div>
+            <div class="links">
+                <a href="./src/main/java/com/seleniumlearning/part1/Scenario5AdvancedTest.java" class="btn btn-green">View Code</a>
+                <a href="./SCENARIOS.md" class="btn">Read Scenario</a>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>? Quick Start</h3>
+            <p>1. Fork the repository on GitHub</p>
+            <p>2. Clone it to your machine</p>
+            <p>3. Run <code>mvn clean install</code> to install dependencies</p>
+            <p>4. Open LEARNING-PATH.md for step-by-step instructions</p>
+            <p>5. Start coding and run <code>mvn test</code></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Bharathkasyap | Part of Selenium Mastery Course</p>
+        <p><a href="https://github.com/Bharathkasyap/selenium-testing-Mastaru" style="color: #58a6ff;">selenium-testing-Mastaru</a></p>
+    </footer>
+</body>
+</html>
