@@ -1,5 +1,7 @@
 # Selenium Practice - Part 1: Web Automation with Selenium WebDriver
 
+> **? Fastest Way: [Open in GitHub Codespaces](https://github.com/codespaces/new/Bharathkasyap/selenium-testing-Mastaru?devcontainer_path=.devcontainer%2Fdevcontainer.json&machine=premiumLinux)** - Click here, wait 30 seconds, and start coding! No installation needed!
+
 ## What is this project?
 
 This is a hands-on learning project where you practice Selenium WebDriver automation through 5 real-world scenarios.
